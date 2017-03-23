@@ -1,0 +1,39 @@
+/* CSS Document */
+#parent{
+width:100%;
+}
+#circle1{
+height:0;
+width:0;
+border-radius:50%;
+border-style:solid;
+border-width:50px;
+border-color:#fc0 transparent transparent transparent;
+transform:rotate(135deg);
+position:absolute;
+left:-50px;
+top:-50px;
+}
+#circle2{
+width:0;
+height:0;
+border-radius:50%;
+border-width:50px;
+border-style:solid;
+border-color:#fc0 transparent transparent transparent;
+transform:rotate(-45deg);
+position:absolute;
+right:-50px;
+bottom:-50px;
+}
+#main{
+height:200px;
+width:400px;
+background-color:#CCCCCC;
+position:absolute;
+top:50%;
+left:50%;
+margin-top:-100px;
+margin-left:-200px;
+
+}
